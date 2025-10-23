@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	width:200px;
+	height:200px;
+	gird-template-colums:repeat(2,1f);
+	gird-template-row:repeat(2,1f);
+	gap:5px;
+	
+}
