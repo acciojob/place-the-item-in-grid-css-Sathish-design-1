@@ -1,19 +1,20 @@
-
-/* Your CSS Code here. */
-.holder{
-	display:grid;
-	width:200px;
-	height:200px;
-	gird-template-colums:repeat(2,1f);
-	gird-template-row:repeat(2,1f);
-	gap:5px;
+/* Create a 2x2 grid of 200px total size */
+.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px; /* optional spacing between boxes */
 }
-.item{
-	background-color:lightblue;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	font-weight:bold;
-	font-size:18px;
-	border: 1px solid #999;
+
+/* Optional styling for visibility */
+.item {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #999;
 }
