@@ -7,14 +7,3 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 5px; /* optional spacing between boxes */
 }
-
-/* Optional styling for visibility */
-.item {
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 18px;
-  border: 1px solid #999;
-}
